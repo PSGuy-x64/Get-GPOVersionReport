@@ -3,10 +3,10 @@
     GPO Version report
 
 .DESCRIPTION
-     Get GPO version from all DCs.
+    Export GPO version report from all DCs.
 
 .PARAMETER Param1
-    GUID.
+    guid.
 
 .EXAMPLE
     PS .\Get-GPOVersionReport.ps1 - guid 'b789c396-0ae1-4cf6-8cf4-80e9e7065037'
@@ -15,14 +15,15 @@
     NA
 
 .OUTPUTS
-    NA
+    'GpoReport.csv'
 
 .NOTES
-    Author           : Ahmed Samir.
-    Owner Contact    : ahmedsamir_x64@outlook.com.
-    Version          : 1.0
-    Script send mail : False.
-    Script Nick Name : GPV
+    Author            : Ahmed Samir.
+    Owner Contact     : ahmedsamir_x64@outlook.com.
+    Version           : 1.0
+    Script send mail  : False.
+    Script export csv : true.
+    Script Nick Name  : GPV
 
     Version 1.0 - 2023/01/01 by Ahmed Samir, initial release.
 #>

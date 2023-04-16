@@ -14,7 +14,6 @@ For /f %i IN ('dsquery server -o rdn') do @echo %i && @wmic /node:"%i" /namespac
 5: In Error
 
 
-
 or to check AD partitions Replication
 
 repadmin /syncall /APeD

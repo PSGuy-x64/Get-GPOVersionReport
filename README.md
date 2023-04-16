@@ -10,7 +10,6 @@ or to check AD partitions Replication
 
 repadmin /syncall /APeD
 
-![image](https://user-images.githubusercontent.com/130890375/232298784-0aab963b-18f7-4624-bae9-8c31fa188b26.png)
 
 
 .\Get-GPOVersionReport.ps1 -guid 457A5DA2-7A53-4277-9F29-E5AA9AB3DC7F

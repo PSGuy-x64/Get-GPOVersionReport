@@ -1,7 +1,7 @@
 # Get-GPOVersionReport
 Group policy version report across all DCs
 
-If GPO is not replicated across all domain controllers you will face GPO applying problems, and before you start to troubleshoot AD replication or SYSVOL replication, you can start running this report to get which GPO is impacted or not up-to-date across all domain controllers.
+If GPO is not replicated across all domain controllers you will face GPO applying problems, and before you start to troubleshoot AD replication or SYSVOL replication, you can start running this script to get which GPO is impacted or not up-to-date across all domain controllers.
 then run CMD command at DC to check dfr rplication state
 
 For /f %i IN ('dsquery server -o rdn') do @echo %i && @wmic /node:"%i" /namespace:\\root\microsoftdfs path dfsrreplicatedfolderinfo WHERE replicatedfoldername='SYSVOL share' get replicationgroupname,replicatedfoldername,state

@@ -18,8 +18,8 @@
     'GpoReport.csv'
 
 .NOTES
-    Author            : Ahmed Samir.
-    Owner Contact     : ahmedsamir_x64@outlook.com.
+    Author            : PS Guy.
+    Owner Contact     : psguy-x64@outlook.com.
     Version           : 1.0
     Script send mail  : False.
     Script export csv : true.
